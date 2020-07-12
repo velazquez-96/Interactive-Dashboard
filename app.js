@@ -1,7 +1,7 @@
 
 // Function to build barchart
 function barChart(Sampleid) {
-    d3.json("../../data.json").then(function (data) {
+    d3.json("../../data/data.json").then(function (data) {
         console.log(data);
         // Filter Data according to id
         let filteredDataBar = data.samples.filter(x => x.id === Sampleid.toString())
@@ -58,7 +58,7 @@ function barChart(Sampleid) {
 }
 
 function bubbleChart(Sampleid) {
-    d3.json("../../data.json").then(function (data) {
+    d3.json("../../data/data.json").then(function (data) {
         // Filter Data according to id
         let filteredDataBb = data.samples.filter(x => x.id === Sampleid.toString())
 
@@ -109,7 +109,7 @@ function bubbleChart(Sampleid) {
 // Display metadata in the panel according to id value
 function metadataTable(Sampleid) {
 
-    d3.json("../../data.json").then(function (data) {
+    d3.json("../../data/data.json").then(function (data) {
         //console.log(data.metadata);
         let options = d3.select("#sample-metadata");
         // Filter data
@@ -131,7 +131,7 @@ function metadataTable(Sampleid) {
 
 
 // Append each id to the dropdown menu
-d3.json("../../data.json").then(function (data) {
+d3.json("../../data/data.json").then(function (data) {
     let dropdown = d3.select("#selDataset")
     data.names.forEach((el) => {
         dropdown.append("option").text(el)
@@ -141,7 +141,7 @@ d3.json("../../data.json").then(function (data) {
 // Function to display gauge chart
 function gaugeChart(Sampleid) {
 
-    d3.json("../../data.json").then(function (data) {
+    d3.json("../../data/data.json").then(function (data) {
         // Filter data according to id
         let wfreq = data.metadata.filter(el => el.id === parseInt(Sampleid))[0].wfreq
         //console.log(wfreq);
@@ -192,7 +192,7 @@ function gaugeChart(Sampleid) {
 
 // Function to display initial charts and metadata of the first id
 function init() {
-    d3.json("../../data.json").then(function (data) {
+    d3.json("../../data/data.json").then(function (data) {
 
         let initID = data.metadata[0].id
         barChart(initID)
