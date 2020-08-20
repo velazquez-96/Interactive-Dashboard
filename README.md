@@ -19,8 +19,12 @@ As said before, the Belly Button Biodiversity dataset (http://robdunnlab.com/pro
 
 ## Outcomes
 
+![Image1.png](Images/Image1.png)
+
+![Image2.png](Images/Image2.png)
+
+![Image3.png](Images/Image3.png)
 
 
-
-Website
+### Website
 https://velazquez-96.github.io/Interactive-Dashboard/
