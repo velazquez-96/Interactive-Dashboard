@@ -9,13 +9,13 @@ As said before, the Belly Button Biodiversity dataset (http://robdunnlab.com/pro
 ## Features
 
 * Addtition of interactivity using Javascript 
-* Build of different charts
+* Use of different charts (gauge, bubble and bar plots)
 * Deployment of the app
 
 ## Built with 
 
-* D3 JS
-* Plotly Js
+* D3.js
+* Plotly.js
 
 ## Outcomes
 
