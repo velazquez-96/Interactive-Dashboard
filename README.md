@@ -4,7 +4,7 @@ A dashboard was built to explore the Belly Button Biodiversity dataset, which ca
 
 ## Data
 
-As said before, the Belly Button Biodiversity dataset (http://robdunnlab.com/projects/belly-button-biodiversity/) was used. This dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+As said before, the Belly Button Biodiversity [dataset](http://robdunnlab.com/projects/belly-button-biodiversity/) was used. This dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 ## Features
 
@@ -27,4 +27,4 @@ As said before, the Belly Button Biodiversity dataset (http://robdunnlab.com/pro
 
 
 ### Website
-https://velazquez-96.github.io/Interactive-Dashboard/
+Feel free to check the [website](https://velazquez-96.github.io/Interactive-Dashboard/) and explore the data
