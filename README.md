@@ -1,10 +1,10 @@
 # Interactive-Dashboard
 
-A dashboard was built to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. 
+A dashboard is built to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. 
 
 ## Data
 
-As said before, the Belly Button Biodiversity [dataset](http://robdunnlab.com/projects/belly-button-biodiversity/) was used. This dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+As said before, the Belly Button Biodiversity [dataset](http://robdunnlab.com/projects/belly-button-biodiversity/) is used. This dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 ## Features
 
@@ -16,6 +16,8 @@ As said before, the Belly Button Biodiversity [dataset](http://robdunnlab.com/pr
 
 * D3.js
 * Plotly.js
+* HTML/CSS
+* Bootstrap
 
 ## Outcomes
 
@@ -27,4 +29,5 @@ As said before, the Belly Button Biodiversity [dataset](http://robdunnlab.com/pr
 
 
 ### Website
+
 Feel free to check the [website](https://velazquez-ivan96.github.io/Interactive-Dashboard/.) and explore the data
